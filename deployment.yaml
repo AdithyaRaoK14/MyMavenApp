@@ -21,7 +21,8 @@ spec:
       containers:
       - name: mymavenapp
 
-        image: yourdockerhubusername/mymavenapp:v1
+        image: adithyark14/mymavenapp:v1
+        imagePullPolicy: Never
 
         ports:
         - containerPort: 8080
